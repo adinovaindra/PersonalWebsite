@@ -1,0 +1,155 @@
+/* Existing styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-image: radial-gradient(rgb(0, 0, 0), rgb(4, 4, 14));
+}
+
+.about-me {
+  background-image: radial-gradient(circle, rgb(20, 21, 38), rgb(3, 3, 33), rgb(0, 0, 0));
+}
+
+.aboutme-content {
+  position: relative;
+  z-index: 1;
+}
+
+.aboutme-card {
+  background-color: rgba(6, 6, 8, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutme-card-skill {
+  background-color: rgba(6, 6, 8, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutme-card-skill:hover {
+  transform: translateY(20px);
+  box-shadow: 0 8px 16px rgba(77, 75, 75, 0.2);
+}
+
+.aboutme-card-button {
+  background-color: rgba(29, 29, 39, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutme-card-button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(77, 75, 75, 0.2);
+}
+
+
+.aboutme-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(77, 75, 75, 0.2);
+}
+
+.aboutme-card h2,
+.portfolio-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.portfolio-section {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: radial-gradient(circle, rgb(20, 21, 38), rgb(3, 3, 33), rgb(0, 0, 0));
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.portfolio-content {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-card {
+  background-image: radial-gradient(circle, rgb(4, 4, 7), rgb(28, 28, 28), rgb(0, 0, 0));
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-card h2,
+.portfolio-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-images {
+  display: flex;
+  gap: 10px;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+.experiencetitle {
+
+  background-image: radial-gradient(circle, rgb(4, 4, 7), rgb(28, 28, 28), rgb(0, 0, 0));
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonialbox {
+
+  background-image: radial-gradient(circle, rgb(4, 4, 7), rgb(28, 28, 28), rgb(0, 0, 0));
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactbox {
+
+  background-image: radial-gradient(circle, rgb(4, 4, 7), rgb(28, 28, 28), rgb(0, 0, 0));
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer {
+
+  background-image: radial-gradient(circle, rgb(4, 4, 7), rgb(28, 28, 28), rgb(0, 0, 0));
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
